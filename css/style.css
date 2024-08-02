@@ -499,7 +499,8 @@ img{
 /*explore button*/
 .products .product-slider .box2
 {
-	padding: 4rem 6rem;
+	height: 39rem;
+	padding: 4rem 2rem;
 	background: #fff;
 	border-radius: .5rem;
 	outline: 1px solid grey;
@@ -530,20 +531,6 @@ img{
 
 }
 
-.categories .box-container .box2 {
-	padding: 3rem 0;
-	background: #00A0E1;
-	border-radius: .5rem;
-	box-shadow: var(--bs);
-	outline: 1px solid grey;
-	outline-offset: -1rem;
-	text-align: center;
-}
-
-.categories .box-container .box2:hover
-{
-	box-shadow: 2px 2px 10px 4px #00A0E1;
-}
 
 /*box1*/
 
@@ -556,14 +543,146 @@ img{
 	outline-offset: -1rem;
 	text-align: center;
 }
+.categories .box-container .box1 h3
+{
+	font-size: 2.5rem;
+	line-height: 1.8;
+	color: black;
+}
 
+.categories .box-container .box1 p 
+{
+	font-size: 1.8rem;
+	line-height: 1.2;
+	padding: 1rem 0;
+}
 .categories .box-container .box1:hover
 {
 	box-shadow: 2px 2px 10px 4px var(--bs);
 }
+.categories .box-container .box1 .btn 
+{
+	margin-top: 30px;
+}
 
-/*box1 end*/
+/*box 1 end*/
+/*box2*/
+.categories .box-container .box2 {
+	padding: 3rem 0;
+	background: #009137;
+	border-radius: .5rem;
+	box-shadow: var(--bs);
+	outline: 1px solid grey;
+	outline-offset: -1rem;
+	text-align: center;
+}
+.categories .box-container .box2 .btn 
+{
+	margin-top: 51px;
+}
+.categories .box-container .box2:hover
+{
+	box-shadow: 2px 2px 10px 4px var(--bs);
+}
+
+.categories .box-container .box2 h3
+{
+	font-size: 2.5rem;
+	line-height: 1.8;
+	color: black;
+}
+
+.categories .box-container .box2 p 
+{
+	font-size: 1.8rem;
+	line-height: 1.2;
+	padding: 1rem 0;
+}
+.categories .box-container .box3:hover
+{
+	box-shadow: 2px 2px 10px 4px var(--bs);
+}
+
+/*box2 end*/
+/*box3*/
+.categories .box-container .box3 {
+	padding: 3rem 0;
+	background: #F09600;
+	border-radius: .5rem;
+	box-shadow: var(--bs);
+	outline: 1px solid grey;
+	outline-offset: -1rem;
+	text-align: center;
+}
+.categories .box-container .box3 p 
+{
+	font-size: 1.8rem;
+	line-height: 1.2;
+	padding: 1rem 2rem;
+}
+.categories .box-container .box3 h3
+{
+	font-size: 2.5rem;
+	line-height: 1.8;
+	color: black;
+}
+/*box3 end*/
 /*categories end*/
+
+/*brands*/
+
+.brands .brands-slider
+{
+	padding: 1rem;
+
+}
+
+.brands .brands-slider .box1
+{
+	padding: 3rem 2rem;
+	background: #fff;
+	border-radius: .5rem;
+	outline: 1px solid grey;
+	text-align: center;
+	outline-offset: -1rem;
+	box-shadow: var(--bs);
+	transition: .2s linear;
+
+}
+
+.brands .brands-slider .box1:hover
+{
+	box-shadow: 2px 2px 10px 4px var(--bs);
+}
+
+
+.brands .brands-slider .box1 img{
+	height: 12rem;
+	width: 20rem;
+}
+
+.brands .brands-slider .box1 p 
+{
+	padding: 1rem 0;
+	line-height: 1.8;
+	font-size: 2rem;
+}
+
+/*brands end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 .home .content h3
