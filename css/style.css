@@ -172,6 +172,7 @@ img{
 {
 	background: #ffcc28;
 	color: darkblue;
+	z-index: 1000;
 }
 
 /*explore button*/
@@ -691,7 +692,6 @@ img{
 }
 
 
-
 /* Media Queries*/
 
 @media (max-width: 991px)
@@ -779,7 +779,3 @@ img{
 	}
 
 }
-
-
-
-
