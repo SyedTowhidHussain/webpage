@@ -112,7 +112,7 @@
 
 <!-- products section -->
 <section class="products" id="products">
-	<h1 class="heading"> Our <span>Products</span></h1>	
+	<h1 class="heading">Our <span>Products</span></h1>	
 	<div class="swiper product-slider">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide box">
@@ -240,7 +240,7 @@
 
 
 <section class="brands" id="brands">
-	<h1 class="heading"> Our <span>Brands</span></h1>	
+	<h1 class="heading">Our <span>Brands</span></h1>	
 	<div class="swiper brands-slider">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide box">
