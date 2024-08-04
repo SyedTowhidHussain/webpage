@@ -73,7 +73,7 @@ var swiper = new Swiper(".brands-slider", {
 
 
 
-var swiper = new Swiper(".dairy-slider", {
+var swiper = new Swiper(".products-slider", {
       loop:true,
       spaceBetween: 20,
 
@@ -93,7 +93,6 @@ var swiper = new Swiper(".dairy-slider", {
         },
       },
     });
-
 
 
 

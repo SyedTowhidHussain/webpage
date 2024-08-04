@@ -143,7 +143,8 @@ section{
 
 }
 
-img{
+
+.logo img{
 	height:9rem;
 	width:12rem;	
 }
@@ -257,6 +258,16 @@ img{
 	color: green;
 
 }
+
+/*pro size*/
+.pro img {
+    width: 75%;
+    margin-left: 118px;
+    margin-top: -7rem;
+    margin-bottom: 4rem;
+}
+
+/*pro end*/
 
 .home {
 	display: flex;
@@ -400,10 +411,15 @@ img{
 
 /*dairy*/
 
-.products .product-slider .box1 img
+.products .product-slider .box1 img {
+    height: 150px;
+    width: 175px;
+}
+
+.products .product-slider .box2 img
 {
 	height: 150px;
-	width: 150px;
+	width: 75px;
 }
 .products .product-slider .box img
 {
@@ -435,8 +451,6 @@ img{
 	padding: .5rem 0;
 
 }
-
-
 
 
 

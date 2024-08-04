@@ -100,6 +100,9 @@ section{
 
 .header .navbar a
 {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 7px 20px;
 	color: darkblue;
 	font-size: 2rem;
 	margin: 0 1rem;
@@ -143,7 +146,7 @@ section{
 
 }
 
-img{
+.logo img{
 	height:9rem;
 	width:12rem;	
 }
