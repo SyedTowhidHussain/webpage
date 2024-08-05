@@ -180,6 +180,7 @@ section{
 
 /*explore button*/
 .btn1{
+
 	border: .2rem solid black;
 	margin-top: 1rem;
 	margin-left: 1px;
@@ -748,17 +749,95 @@ section{
 
 /*brands end*/
 
+/*footer*/
+
+.footer
+{
+	background: #192882;
+}
+.footer .box-container
+{
+	padding-left: 2rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(26rem,1fr));
+	gap: 18.5rem;
+}
+
+.footer .box-container .box h3
+{
+
+	font-size: 2.5rem;
+	color: #fff;
+	padding-bottom: 3rem;
+
+}
 
 
+.footer .box-container .box .links i
+{
+	margin-left: 7px;
+	color: #fff;
+	padding-right: .5rem;
+}
 
+.footer .box-container .box .links:hover i
+{
 
+	padding-right: 2rem;
 
+}
 
+.footer .box-container .box p
+{
+	font-size: 1.5rem;
+	color: #fff;
+	padding: 1rem 0;
+	
+}
 
+.footer .box-container .box .links
+{
+	display: block;
+	font-size: 1.5rem;
+	color: #fff;
+	padding: 1rem 0;
+	
+}
 
+.footer .box-container .box .share a
+{
+	padding: 2rem;
+	height: 4rem;
+	width: 4rem;
+	border-radius: 50%;
+	line-height: 0rem;
+	color: #fff;
+	padding-left: 7px;
+	margin: 22px;
+	font-size: 3rem;
 
+}
 
+.footer .box-container .box .share a:hover
+{
+	background: #fff;
+	color: #192882;
+}
 
+.footer .credit
+{
+	text-align: center;
+	margin-top: 15rem;
+	padding: 2rem;
+	width: 200rem;
+    margin-left: -375px;
+/*	padding: 1rem;*/
+/*	padding-top: 3.5rem;*/
+	font-size: 2rem;
+	color: grey;
+	background-color: #121C57;
+}
+/*footer end*/
 
 
 
