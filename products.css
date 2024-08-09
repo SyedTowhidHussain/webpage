@@ -157,7 +157,6 @@ section{
 }
 
 .btn{
-	text-transform: capitalize;
 	border: .2rem solid black;
 	margin-top: 1rem;
 	display: inline-block;
@@ -919,6 +918,7 @@ section{
 .footer
 {
 	background: #192882;
+	margin-top: 350px;
 }
 .footer .box-container
 {
@@ -1006,10 +1006,19 @@ section{
 
 
 
+/*cart*/
+
+.wor{
+		font-size: 200px;
+	}
 
 
 
 
+
+
+
+/*cart end*/
 
 
 

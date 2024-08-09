@@ -8,6 +8,7 @@ document.querySelector('#search-btn').onclick=()=>
 }
 
 
+
 let navbar = document.querySelector('.navbar');
 
 document.querySelector('#menu-btn').onclick=()=>

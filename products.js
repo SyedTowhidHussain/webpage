@@ -27,7 +27,7 @@ window.onscroll=()=>
 
 
 var swiper = new Swiper(".product-slider", {
-      loop:false,
+      loop:true,
       spaceBetween: 20,
 
       autoplay: {

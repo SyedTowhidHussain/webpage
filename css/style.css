@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
+	
 :root
 {
 	--green: green;
@@ -51,7 +52,7 @@ section{
 
 	text-align: center;
 	padding: 6rem;
-	margin-top: -175px;
+	margin-top: -100px;
 	padding-bottom: 3rem;
 	font-size: 3.5rem;
 	color: black;
@@ -160,7 +161,7 @@ section{
 
 .btn{
 	border: .2rem solid black;
-	margin-top: 1rem;
+	margin-top: 2rem;
 	display: inline-block;
 	padding: .8rem 3rem;
 	font-size: 1.9rem;
@@ -185,8 +186,9 @@ section{
 	margin-top: 1rem;
 	margin-left: 1px;
 	display: inline-block;
-	padding: 8rem 10rem;
+	padding: 10rem 4rem;
 	text-align: center;
+	margin-top: 3rem;
 	font-size: 4rem;
 	font-weight: bolder;
 	border-radius: .5rem;
@@ -339,7 +341,7 @@ section{
 
 .features .box-container .box p 
 {
-	font-size: 1.8rem;
+	font-size: 2.3rem;
 	line-height: 1.2;
 	padding: 1rem 0;
 
@@ -384,7 +386,7 @@ section{
 
 .features .box-container .box1 p 
 {
-	font-size: 1.8rem;
+	font-size: 2.3rem;
 	line-height: 1.2;
 	padding: 1rem 0;
 
@@ -504,7 +506,7 @@ section{
 /*explore button*/
 .products .product-slider .box2
 {
-	height: 39rem;
+	height: 40rem;
 	padding: 4rem 2rem;
 	background: #fff;
 	border-radius: .5rem;
@@ -557,8 +559,8 @@ section{
 
 .categories .box-container .box1 p 
 {
-	font-size: 1.8rem;
-	line-height: 1.2;
+	font-size: 2rem;
+	line-height: 3.5;
 	padding: 1rem 0;
 }
 .categories .box-container .box1:hover
@@ -583,7 +585,7 @@ section{
 }
 .categories .box-container .box2 .btn 
 {
-	margin-top: 25px;
+	margin-top: 15px;
 }
 .categories .box-container .box2:hover
 {
@@ -599,8 +601,8 @@ section{
 
 .categories .box-container .box2 p 
 {
-	font-size: 1.8rem;
-	line-height: 2;
+	font-size: 2.1rem;
+	line-height: 3;
 	padding: 1rem 0;
 }
 .categories .box-container .box3:hover
@@ -621,9 +623,10 @@ section{
 }
 .categories .box-container .box3 p 
 {
-	font-size: 1.8rem;
-	line-height: 1.2;
+	font-size: 2.1rem;
+	line-height: 3.2;
 	padding: 1rem 2rem;
+	margin-top: 15px;
 }
 .categories .box-container .box3 h3
 {
@@ -633,6 +636,14 @@ section{
 }
 /*box3 end*/
 /*categories end*/
+
+
+
+
+
+
+
+
 
 /*brands*/
 
@@ -646,7 +657,7 @@ section{
 {
 	padding: 0 2rem;
 	padding-bottom: 2rem;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 
 }
 
@@ -686,6 +697,7 @@ section{
 /*	padding: 3rem 2rem;*/
 	padding-bottom: 1rem;
 	background: #fff;
+	padding-top: 15px;
 	border-radius: .5rem;
 	outline: 1px solid grey;
 	text-align: center;
@@ -827,7 +839,7 @@ section{
 .footer .credit
 {
 	text-align: center;
-	margin-top: 15rem;
+	margin-top: 4rem;
 	padding: 2rem;
 	width: 200rem;
     margin-left: -375px;
